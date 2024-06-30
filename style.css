@@ -1,0 +1,177 @@
+body{
+    font-family:Arial ;
+    font-size:13px ;
+    color:#333 ;
+    background-color:#e7ecf4 ;
+}
+#header{
+    background-color: #222;
+    height: auto;
+}
+#logo, #search, #cart{
+    height: 60px;
+}
+#search input{
+    width:280px;
+    height: 30px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+    font-size: 13px;
+}
+#search button{
+    height: 30px;
+    font-size: 13px;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    background-color: #EB1F27;
+    color: #FFF;
+}
+#search input,#search button{
+    margin-top: 10px;
+}
+#body{
+    padding-bottom: 15px;
+}
+#cart{
+    text-align: right;
+}
+#cart a,#cart span{
+    font-size: 13px;
+    color: #FFF;
+    margin-top: 10px;
+}
+#cart span{
+    border-radius: 100%;
+    background-color: #EB1F27;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+#menu ul{
+    background-color: #EB1F27;
+    padding:0;
+    overflow: hidden;
+    text-decoration: none;
+}
+.menu-item{
+    list-style-type: none;
+    float: left;
+    border-right:1px solid #C60A11;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 15px;
+}
+.menu-item a{
+    color: #FFF;
+}
+.menu-item:hover {
+    cursor: pointer;
+    background-color: #C60A11;
+}
+.menu-item:hover a{
+    text-decoration: none;
+}
+.banner-item{
+    margin-bottom:10px;
+}
+#products h3{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.product-item{
+    text-align: center;
+    padding-left: 5px;
+    padding-right:5px;
+    margin-bottom:10px;
+}
+.product-item img{
+    width:125px;
+    height:160px;
+}
+.product-item h4 a{
+    color: #333;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top:5px;
+}
+a{
+    text-decoration: none;
+}
+
+.product-item span{
+    color:#EB1F27;
+    font-weight: bold;
+}
+#product-list{
+    margin-left: -5px;
+    margin-right: -5px;
+}
+#footer-t{
+    background-color: white;
+}
+#logo-f,#address,#service,#hotline{
+    padding-top: 20px;
+}
+#footer-t #logo-f p{
+    text-align: justify;
+}
+#footer-t #address h3{
+    font-size: 18px;
+    border-bottom:1px solid #333;
+    padding-bottom:12px;
+    margin-bottom: 15px;
+}
+#footer-t #service h3{
+    font-size: 18px;
+    border-bottom:1px solid #333;
+    padding-bottom:12px;
+    margin-bottom: 15px;
+}
+#footer-t #hotline h3{
+    font-size: 18px;
+    border-bottom:1px solid #333;
+    padding-bottom:12px;
+    margin-bottom: 15px;
+}
+#footer-b{
+    background-color: #1D1E24;
+    padding-top: 13.5px;
+    padding-bottom: 13.5px;
+}   
+#footer-b p{
+    color: #A1B1BC;
+    margin: 0;
+}
+@media(max-width:992px){
+    #banner{
+        display: none;
+    }
+}
+@media(max-width:768px){
+    #cart{
+        text-align: left;
+    }
+    #slider{
+        display:none;
+    }
+    .menu-item{
+        float: none;
+        border:none;
+        border-bottom:1px solid #C60A11
+    }
+    #logo h1 button{
+        float: right;
+        background-color: #FFF;
+        margin-top: 10px;
+    }
+}
+@media(min-width:768px){
+    #logo h1 button{
+        display: none;
+    }
+    #menu{
+        display: block;
+    }
+}
